@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import genThumb from "@/public/images/Deso.png";
+import genThumb from "@/public/images/desoImage.png";
 
 const GenerationTwo = () => {
   return (
