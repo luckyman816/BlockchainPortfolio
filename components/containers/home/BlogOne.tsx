@@ -11,6 +11,9 @@ import six from "@/public/images/blogOne/six.png";
 import seven from "@/public/images/blogOne/seven.png";
 import eight from "@/public/images/blogOne/eight.png";
 import nine from "@/public/images/blogOne/nine.png";
+import ten from "@/public/images/blogOne/ten.png";
+import eleven from "@/public/images/blogOne/eleven.png";
+import twellve from "@/public/images/blogOne/twellve.png";
 const BlogOne = () => {
   const [isHover, setIsHover] = useState(0);
 
@@ -33,7 +36,85 @@ const BlogOne = () => {
             </div>
           </div>
         </div>
+
         <div className="row gaper fade-wrapper">
+          <div className="col-12 col-md-6 col-xl-4 fade-top">
+            <div
+              className={
+                "blog__single topy-tilt" +
+                (isHover === 9 ? " blog__single-active" : " ")
+              }
+              onMouseEnter={() => setIsHover(9)}
+            >
+              <div className="blog__single-thumb">
+                <Link href="https://www.sappy.lol/seals">
+                  <Image src={ten} alt="Image" priority />
+                </Link>
+              </div>
+              <div className="blog__single-content">
+                <h4>
+                  <Link href="https://www.sappy.lol/seals">
+                    -NFT Marketplace
+                    <br />
+                    NFT platform hosting a collection of 10,000 unique digital
+                    collectibles based on the Ethereum blockchain{" "}
+                  </Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 col-xl-4 fade-top">
+            <div
+              className={
+                "blog__single topy-tilt" +
+                (isHover === 10 ? " blog__single-active" : " ")
+              }
+              onMouseEnter={() => setIsHover(10)}
+            >
+              <div className="blog__single-thumb">
+                <Link href="https://www.marsnext.io/">
+                  <Image src={eleven} alt="Image" priority />
+                </Link>
+              </div>
+              <div className="blog__single-content">
+                <h4>
+                  <Link href="https://www.marsnext.io/">
+                    -DeFi Yield Farming platforms
+                    <br />
+                    The platform focuses on providing innovative yield farming
+                    opportunities to users, enhancing their returns on digital
+                    assets{" "}
+                  </Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 col-xl-4 fade-top">
+            <div
+              className={
+                "blog__single topy-tilt" +
+                (isHover === 11 ? " blog__single-active" : " ")
+              }
+              onMouseEnter={() => setIsHover(11)}
+            >
+              <div className="blog__single-thumb">
+                <Link href="https://heroswap.com/">
+                  <Image src={twellve} alt="Image" priority />
+                </Link>
+              </div>
+              <div className="blog__single-content">
+                <h4>
+                  <Link href="https://heroswap.com/">
+                    -Decentralized Exchanges(DEXs)
+                    <br />
+                    This project is cross-chain swap project aimed at
+                    facilitating seamless asset exchanges between diyerent
+                    blockchain networks{" "}
+                  </Link>
+                </h4>
+              </div>
+            </div>
+          </div>
           <div className="col-12 col-md-6 col-xl-4 fade-top">
             <div
               className={
@@ -48,12 +129,12 @@ const BlogOne = () => {
                 </Link>
               </div>
               <div className="blog__single-content">
-                
                 <h4>
                   <Link href="https://staging-prototype-metropoly.netlify.app/">
                     -NFT Marketplace
                     <br /> -Buy Your First Real Estate NFT in Seconds <br />
-                    -The world’s first NFT marketplace backed by real-world properties{" "}
+                    -The world’s first NFT marketplace backed by real-world
+                    properties{" "}
                   </Link>
                 </h4>
               </div>
@@ -73,7 +154,6 @@ const BlogOne = () => {
                 </Link>
               </div>
               <div className="blog__single-content">
-                
                 <h4>
                   <Link href="https://www.nakheel.com/">
                     -Nakheel.com
@@ -103,8 +183,10 @@ const BlogOne = () => {
                     Avix.co.jp
                     <br />
                     -As a flagship shop <br />
-                    -Ai Signage Solution<br/>
-                    -The challenge to create a new shop decoration<br/>
+                    -Ai Signage Solution
+                    <br />
+                    -The challenge to create a new shop decoration
+                    <br />
                   </Link>
                 </h4>
               </div>
@@ -128,8 +210,10 @@ const BlogOne = () => {
                   <Link href="https://rango.exchange/apis">
                     Rango Exchange
                     <br />
-                    -One API, all DeFi liquidity & cross-chain interoperability <br />
-                    -DApp, API & SDK, Widget, Explorer<br/>
+                    -One API, all DeFi liquidity & cross-chain interoperability{" "}
+                    <br />
+                    -DApp, API & SDK, Widget, Explorer
+                    <br />
                   </Link>
                 </h4>
               </div>
@@ -152,9 +236,9 @@ const BlogOne = () => {
                 <h4>
                   <Link href="https://www.xyzreality.com/#">
                     XYZreality.com
-                    <br /> -That saves your construction project time and money <br/>
-                    -Augmented reality that is purpose built for construction
-                    {" "}
+                    <br /> -That saves your construction project time and money{" "}
+                    <br />
+                    -Augmented reality that is purpose built for construction{" "}
                   </Link>
                 </h4>
               </div>
@@ -174,14 +258,12 @@ const BlogOne = () => {
                 </Link>
               </div>
               <div className="blog__single-content">
-                <div className="blog__single-meta">
-                  
-                </div>
+                <div className="blog__single-meta"></div>
                 <h4>
                   <Link href="https://viptalkers.com/">
                     Viptalkers.com
-                    <br /> -Learn English Online. <br/>
-                    -Learn English with video courses and live tutors. <br/>
+                    <br /> -Learn English Online. <br />
+                    -Learn English with video courses and live tutors. <br />
                   </Link>
                 </h4>
               </div>
@@ -206,7 +288,8 @@ const BlogOne = () => {
                     Kidzrup.com <br />
                     -For children English Online Platform
                     <br />
-                    -We enable students aged 7-17 to improve their foreign language skills <br/>
+                    -We enable students aged 7-17 to improve their foreign
+                    language skills <br />
                   </Link>
                 </h4>
               </div>
@@ -228,9 +311,10 @@ const BlogOne = () => {
               <div className="blog__single-content">
                 <h4>
                   <Link href="https://mintspace.io/?v=f9308c5d0596">
-                   Gambulls.com<br />
-                   -This is Responsible Casino Game <br/>
-                   -This game supports the generation of online gamblers
+                    Gambulls.com
+                    <br />
+                    -This is Responsible Casino Game <br />
+                    -This game supports the generation of online gamblers
                   </Link>
                 </h4>
               </div>
@@ -252,8 +336,10 @@ const BlogOne = () => {
               <div className="blog__single-content">
                 <h4>
                   <Link href="https://billionair.com/">
-                  Billionair.com<br />
-                   Free NFT Tickets, Win Grand Raffle Prize, $AIRB Token is live on MEXC, Stake Your $AIRB, Join weekly contests <br/>
+                    Billionair.com
+                    <br />
+                    Free NFT Tickets, Win Grand Raffle Prize, $AIRB Token is
+                    live on MEXC, Stake Your $AIRB, Join weekly contests <br />
                   </Link>
                 </h4>
               </div>
